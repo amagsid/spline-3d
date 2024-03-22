@@ -1,7 +1,8 @@
 'use client';
-import Spline from '@splinetool/react-spline';
 import Image from 'next/image';
 import Link from 'next/link';
+import Header from './sections/Header';
+import AboutMe from './sections/About';
 
 export default function Home() {
   return (
@@ -10,49 +11,32 @@ export default function Home() {
       <main className='flex flex-col min-h-screen h-fit items-center justify-center relative'>
         <div className=' h-screen w-screen snap-mandatory snap-y overflow-scroll'>
           <div className='snap-start h-screen w-screen flex justify-center items-center text-9xl '>
-            <header
-              id='home'
-              className='flex flex-col-reverse md:flex-row w-full h-screen max-w-7xl items-center justify-center p-8 relative overflow-x-hidden'
-            >
-              <div className='w-full h-2/4 md:h-full md:w-2/5 flex flex-col justify-center items-center md:items-start gap-8'>
-                <div className='flex flex-col gap-2'>
-                  <h1 className='text-4xl font-black text-gray-100 md:text-8xl'>
-                    Insightful
-                  </h1>
-                  <h2 className='text-md md:text-2xl'>
-                    Machine Learning-powered growth.
-                  </h2>
-                </div>
-                <p className='max-w-md text-sm md:text-base text-zinc-500'>
-                  Harness the power of AI sales optimization and get an
-                  all-in-one tool to get data-driven insights to boost sales
-                  performance today.
-                </p>
-                <div className=' tracking-wider w-full flex items-center justify-center md:justify-start gap-4'>
-                  <button className='w-48 h-12 sm:text-base rounded-xl bg-white text-black font-light hover:bg-pink-600 hover:text-white transition-colors'>
-                    Get 7 days free trial
-                  </button>
-
-                  <button className=' tracking-wider w-48 h-12  sm:text-base rounded-xl hover:bg-white hover:text-pink-600 font-light transition-colors'>
-                    Contact
-                  </button>
-                </div>
-              </div>
-
-              <div className='w-full h-2/4 md:h-full md:w-3/5 flex items-center justify-center relative -z-10'>
-                <Spline
-                  className='w-full flex scale-[.25] sm:scale-[.35] lg:scale-[.5] items-center justify-center md:justify-start'
-                  scene='https://prod.spline.design/pvM5sSiYV2ivWraz/scene.splinecode'
-                />
-              </div>
-            </header>
+            <Header />
           </div>
-          {/* <div className=' snap-start h-screen w-screen bg-pink-400 flex justify-center items-center text-9xl'>
-            hoi
-          </div> */}
-          {/* <div className=' snap-start h-screen w-screen bg-orange-300 flex justify-center items-center text-9xl font-mono'>
+          <div className=' snap-start h-screen w-screen flex justify-center items-center '>
+            <AboutMe />
+          </div>
+          <div className=' snap-start h-screen w-screen bg-orange-300 flex justify-center items-center text-9xl font-mono'>
             hello
-          </div> */}
+          </div>
+          <div className=' snap-start h-screen w-screen bg-orange-300 flex justify-center items-center text-9xl font-mono'>
+            hello
+          </div>
+          <div className=' snap-start h-screen w-screen bg-orange-300 flex justify-center items-center text-9xl font-mono'>
+            hello
+          </div>
+          <div className=' snap-start h-screen w-screen bg-lime-400 flex justify-center items-center text-9xl font-mono'>
+            hello
+          </div>
+          <div className=' snap-start h-screen w-screen bg-teal-800 flex justify-center items-center text-9xl font-mono'>
+            hello
+          </div>
+          <div className=' snap-start h-screen w-screen bg-orange-300 flex justify-center items-center text-9xl font-mono'>
+            hello
+          </div>
+          <div className=' snap-start h-screen w-screen bg-violet-300 flex justify-center items-center text-9xl font-mono'>
+            hello
+          </div>
         </div>
       </main>
     </>
