@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Header from './sections/Header';
 import AboutMe from './sections/About';
+import Pricing from './sections/Pricing';
 import { useEffect } from 'react';
 import UseAnimations from 'react-useanimations';
 import loading2 from 'react-useanimations/lib/loading2';
@@ -28,6 +29,9 @@ export default function Home() {
           </div>
           <div className=' snap-start h-screen w-screen flex justify-center items-center '>
             <AboutMe />
+          </div>
+          <div className=' md:text-9xl  snap-start h-screen w-screen  flex justify-center items-center text-9xl font-mono'>
+            <Pricing />
           </div>
           <div className=' md:text-9xl  snap-start h-screen w-screen bg-orange-300 flex justify-center items-center text-9xl font-mono'>
             swipe Up

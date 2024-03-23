@@ -36,7 +36,7 @@ const About = () => {
   }
   const InfoCard = ({ title, Icon, children }: IInfoCardProps) => {
     return (
-      <div className='w-full h-80 rounded flex flex-col justify-around items-center p-8 bg-gray-900 bg-clip-padding backfrop-filter backdrop-blur-sm bg-opacity-20'>
+      <div className='w-full md:h-80 h-70 rounded flex flex-col justify-around items-center md:p-8 px-4 py-4 gap-5  bg-gray-900 bg-clip-padding backfrop-filter backdrop-blur-sm bg-opacity-20'>
         <div className='p-4 bg-fuchsia-700 rounded-full'>
           {' '}
           <Icon />{' '}
@@ -71,7 +71,7 @@ const About = () => {
       <div className='w-full h-full items-center justify-center flex flex-col gap-8 max-w-7xl'>
         {' '}
         <h3 className='text-4xl md:text-5xl font-bold'>No More time Wasted</h3>
-        <div className='w-full grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-rows-1 gap-4 justify-between relative'>
+        <div className='w-full grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-2 lg:grid-rows-1 gap-4 justify-between relative'>
           {infoCards.map((infoCard) => {
             return (
               <InfoCard
@@ -79,7 +79,9 @@ const About = () => {
                 Icon={infoCard.icon}
                 title={infoCard.title}
               >
-                <p>PARAGAGAGA</p>
+                <p className='text-sm sm:text-base text-center md:text-left'>
+                  {infoCard.bodyText}
+                </p>
               </InfoCard>
             );
           })}

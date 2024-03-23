@@ -29,7 +29,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="public/whirl.svg" alt="Logo" width="80" height="80">
+    <img src="public/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Insightful</h3>
@@ -84,7 +84,7 @@
 
 ### Built With
 
-[![Next][Next.js]][Next-url] [![React][React.js]][React-url] [![Framer Motion][React.js]][React-url] [![Tailwind][React.js]][React-url] [![StyledComponents][React.js]][React-url]
+[![Next][Next.js]][Next-url] [![React][React.js]][React-url] [![Tailwind][TailwindCSS]][tailwind-url] [![Framer Motion][React.js]][React-url] [![Tailwind][React.js]][React-url] [![StyledComponents][React.js]][React-url]
 
 <!-- - [![Vue][Vue.js]][Vue-url]
 - [![Angular][Angular.io]][Angular-url]
@@ -215,6 +215,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [website-screenshot]: ../../ahmed.magdy/Documents/Projects/portfolio/public/images/readme/main.gif
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
+[TailwindCSS]: https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss
+[Tailwind-url]: https://tailwindcss.com
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
