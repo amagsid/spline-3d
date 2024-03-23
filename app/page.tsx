@@ -3,39 +3,49 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Header from './sections/Header';
 import AboutMe from './sections/About';
+import { useEffect } from 'react';
+import UseAnimations from 'react-useanimations';
+import loading2 from 'react-useanimations/lib/loading2';
 
 export default function Home() {
+  // useEffect(() => {
+  //   if (typeof window !== 'undefined') {
+  //     const loader = document.getElementById('globalLoader');
+  //     if (loader) loader.remove();
+  //   }
+  // }, []);
   return (
     <>
+      {/* <div id='globalLoader' className='flex-col'>
+        <UseAnimations fillColor='white' animation={loading2} size={486} />
+        <h1 className='text-4xl text-white'>Loading ui.. </h1>
+      </div> */}
       <Navbar />
       <main className='flex flex-col min-h-screen h-fit items-center justify-center relative'>
         <div className=' h-screen w-screen snap-mandatory snap-y overflow-scroll'>
-          <div className='snap-start h-screen w-screen flex justify-center items-center text-9xl '>
+          <div className='snap-start h-screen w-screen flex justify-center items-centertext-9xl '>
             <Header />
           </div>
           <div className=' snap-start h-screen w-screen flex justify-center items-center '>
             <AboutMe />
           </div>
-          <div className=' snap-start h-screen w-screen bg-orange-300 flex justify-center items-center text-9xl font-mono'>
-            hello
+          <div className=' md:text-9xl  snap-start h-screen w-screen bg-orange-300 flex justify-center items-center text-9xl font-mono'>
+            swipe Up
           </div>
-          <div className=' snap-start h-screen w-screen bg-orange-300 flex justify-center items-center text-9xl font-mono'>
-            hello
+          <div className=' snap-start h-screen w-screen bg-fuchsia-400 flex justify-center items-center text-9xl font-mono'>
+            Once
           </div>
-          <div className=' snap-start h-screen w-screen bg-orange-300 flex justify-center items-center text-9xl font-mono'>
-            hello
+          <div className=' snap-start h-screen w-screen bg-rose-400 flex justify-center items-center text-9xl font-mono'>
+            to replicate
           </div>
           <div className=' snap-start h-screen w-screen bg-lime-400 flex justify-center items-center text-9xl font-mono'>
-            hello
+            responsive
           </div>
           <div className=' snap-start h-screen w-screen bg-teal-800 flex justify-center items-center text-9xl font-mono'>
-            hello
+            phone app
           </div>
           <div className=' snap-start h-screen w-screen bg-orange-300 flex justify-center items-center text-9xl font-mono'>
-            hello
-          </div>
-          <div className=' snap-start h-screen w-screen bg-violet-300 flex justify-center items-center text-9xl font-mono'>
-            hello
+            behaviour
           </div>
         </div>
       </main>

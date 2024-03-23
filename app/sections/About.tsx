@@ -36,7 +36,7 @@ const About = () => {
   }
   const InfoCard = ({ title, Icon, children }: IInfoCardProps) => {
     return (
-      <div className='w-full h-80 rounded flex flex-col justify-around items-center p-8 bg-gray-900 bg-clip-padding backfrop-filter backdrop-blur-xl bg-opacity-20'>
+      <div className='w-full h-80 rounded flex flex-col justify-around items-center p-8 bg-gray-900 bg-clip-padding backfrop-filter backdrop-blur-sm bg-opacity-20'>
         <div className='p-4 bg-fuchsia-700 rounded-full'>
           {' '}
           <Icon />{' '}
