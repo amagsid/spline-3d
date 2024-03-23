@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import React from 'react';
-import UseAnimations from 'react-useanimations';
-import github from 'react-useanimations/lib/github';
 
 const inter = Inter({ subsets: ['latin'] });
 

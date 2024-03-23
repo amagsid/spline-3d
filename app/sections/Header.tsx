@@ -1,3 +1,4 @@
+'use client';
 import Spline from '@splinetool/react-spline';
 import Image from 'next/image';
 

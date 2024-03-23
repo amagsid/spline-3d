@@ -1,4 +1,4 @@
-import Spline from '@splinetool/react-spline';
+'use client';
 import Image from 'next/image';
 import { motion, useTransform, useScroll } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
