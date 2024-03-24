@@ -17,8 +17,13 @@
   }
 }
 
+* {
+  scroll-behavior: smooth !important;
+}
+
 body {
   color: white;
+
   /* background: linear-gradient(
       to bottom,
       transparent,
@@ -26,6 +31,7 @@ body {
     )
     rgb(var(--background-start-rgb)); */
   background-color: black;
+  scroll-behavior: smooth;
 }
 
 @layer utilities {

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Header from './sections/Header';
-import AboutMe from './sections/About';
+import Solutions from './sections/Solutions';
 import Pricing from './sections/Pricing';
 
 export default function Home() {
@@ -14,15 +14,15 @@ export default function Home() {
             <Header />
           </div>
           <div className=' snap-start h-screen w-screen flex justify-center items-center '>
-            <AboutMe />
+            <Solutions />
           </div>
-          <div className=' snap-start h-screen w-screen  flex justify-center items-center font-mono'>
+          <div className=' snap-start h-screen w-screen  flex justify-center items-center '>
             <Pricing />
           </div>
-          <div className=' md:text-9xl  snap-start h-screen w-screen bg-orange-300 flex justify-center items-center text-9xl font-mono'>
+          <div className=' md:text-9xl  snap-start h-screen w-screen bg-orange-300 flex justify-center items-center text-9xl '>
             swipe Up
           </div>
-          <div className=' snap-start h-screen w-screen bg-fuchsia-400 flex justify-center items-center text-9xl font-mono'>
+          <div className=' snap-start h-screen w-screen bg-fuchsia-400 flex justify-center items-center text-9xl '>
             Once
           </div>
           <div className=' snap-start h-screen w-screen bg-rose-400 flex justify-center items-center text-9xl font-mono'>
@@ -63,9 +63,9 @@ function Navbar() {
           <li>
             <Link
               className='hover:text-white transition-all text-xs sm:text-base'
-              href='#about'
+              href='#solutions'
             >
-              About
+              Solutions
             </Link>
           </li>
           <li>
