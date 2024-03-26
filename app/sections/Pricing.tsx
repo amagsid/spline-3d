@@ -59,13 +59,14 @@ const Pricing = () => {
     >
       <h1 className='text-white text-4xl md:text-5xl font-bold'>Plans</h1>
       <div className='grid grid-cols-1 grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 items-center h-fit w-full max-w-3xl gap-8  '>
-        {pricingCards.map(({ oneliner, title, price, benefits }) => {
+        {pricingCards.map(({ oneliner, title, price, benefits }, i) => {
           return (
             <PricingCard
               oneliner={oneliner}
               title={title}
               price={price}
               benefits={benefits}
+              key={i}
             />
           );
         })}

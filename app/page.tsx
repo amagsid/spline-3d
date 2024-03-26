@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar />
       <main className='flex flex-col min-h-screen h-fit items-center justify-center relative'>
         <div className=' h-screen w-screen snap-mandatory snap-y overflow-scroll'>
-          <div className='snap-start h-screen w-screen flex justify-center items-centertext-9xl '>
+          <div className='snap-start h-screen flex justify-center items-center  '>
             <Header />
           </div>
           <div className=' snap-start h-screen w-screen flex justify-center items-center '>

@@ -11,7 +11,7 @@ const tour = () => {
       <div className='h-screen w-screen snap-mandatory snap-y overflow-scroll  '>
         <div className='snap-start h-screen w-screen  '>
           <div className=' flex flex-col justify-center items-center h-full gap-8'>
-            <h1 className='text-6xl md:text-8xl font-medium '> coming soon</h1>
+            <h1 className='text-6xl md:text-4xl font-thin '> coming soon</h1>
             <UseAnimations
               className='fill-black'
               fillColor='white'
@@ -19,8 +19,8 @@ const tour = () => {
               size={186}
             />
             <Link href='/'>
-              <button className='w-48 h-12 sm:text-base rounded-xl bg-white text-black font-light hover:bg-pink-600 hover:text-white transition-colors'>
-                Return home
+              <button className='w-40 h-10 sm:text-base rounded-xl bg-white text-black font-light hover:bg-pink-600 hover:text-white transition-colors'>
+                Back to home
               </button>
             </Link>
 

@@ -7,7 +7,7 @@ import { CircleArrowUp } from 'lucide-react';
 const Header = () => {
   return (
     <section>
-      <div className='flex flex-col h-screen w-screen'>
+      <div className='flex flex-col h-screen'>
         <header
           id='home'
           className='flex flex-col-reverse md:flex-row w-full h-screen max-w-7xl items-center justify-center p-8 relative overflow-x-hidden'
@@ -52,7 +52,7 @@ const Header = () => {
         </header>
         <Link
           href='#solutions'
-          className='pb-2 flex h-20 flex-col items-center justify-center text-f  hover:text-fuchsia-300'
+          className='pb-2 flex h-8 flex-col items-center justify-center text-f  hover:text-fuchsia-300'
         >
           <div className='flex items-center justify-end flex-col hover:text-fuchsia-300  w-full'>
             {' '}
